@@ -1,0 +1,33 @@
+#container {
+  width:700px;
+  height:300px;
+  overflow:hidden;
+}
+
+#container img {
+  margin:0;
+  float:left;
+}
+
+#slider {
+  width:2100px;
+  height:300px;
+  transition:margin-left .8s;
+}
+
+#image1:checked ~ #container #slider {
+  margin-left:0;
+}
+
+#image2:checked ~ #container #slider {
+  margin-left:-700px;
+}
+
+#image3:checked ~ #container #slider {
+  margin-left:-1400px;
+}
+
+.selector {
+  position:relative;
+  top:325px;
+}
