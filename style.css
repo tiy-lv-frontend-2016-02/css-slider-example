@@ -1,12 +1,28 @@
+body {
+  background-image:url("bg.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
 #container {
   width:700px;
   height:300px;
   overflow:hidden;
+  position:relative;
+  top:-19px;
 }
 
 #container img {
   margin:0;
   float:left;
+}
+
+#slider-container {
+  width:700px;
+  height:340px;
+  overflow:hidden;
+  margin:auto;
+  text-align:center;
 }
 
 #slider {
@@ -29,5 +45,5 @@
 
 .selector {
   position:relative;
-  top:325px;
+  top:310px;
 }
